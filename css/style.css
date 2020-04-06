@@ -1,0 +1,104 @@
+body{
+    font-family: Arial,"Times New Roman", sans-serif;
+    font-size: 16px;
+    background-color: #DCDCDC
+}
+ol,ul{
+    list-style: none;/*dùng để xóa các kí tự liệt kê*/
+}
+#khunggioihan{
+    background-color: #ffffff;
+    width:1000px;
+    border:1px solid black;
+    margin: 0 auto;
+    padding:2px, 5px;
+}
+#logo{
+    position: relative;
+    background-image: url(../img/Monthly-Website.jpg);
+    background-repeat: repeat-x;
+    width: 1000px;
+    height:250px;
+}
+#sologan{
+    position: absolute;
+    font-size: 3.5em;
+    top:10px;
+    left: 200px;
+    color: #fff;
+}
+#khungnoidung{
+    background-color: #B0C4DE;
+    
+   
+}
+#khungnoidung:after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+}
+
+#menu{
+    background-color: 	#504A4B;
+    height:40px;
+}
+#menu li{/*định dạng các liệt kê ở mục menu*/
+    background-color: #6D7B8D;
+    float:left;
+    border-left:0.5px solid black;
+    border-right: 0.5px solid black;
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    line-height: 40px;/*dùng để khắc phục căn chử vào giữ theo chiều dọc*/
+}
+#menu a{/*dùng để định dạng đường link ở mục menu*/
+    text-decoration: none;/*dung để xóa các định dạng củ*/
+    color: #ffffff;
+}
+#menu a:hover{/*tạo class giả để khi ta rê chuột vào link trên mục menu thì đổi màu*/
+    color: #2F4F4F;
+}
+#bosung{
+    float:left;
+    width: 300px;
+    /*border: 1px solid gray;*/
+    background-color: #B0C4DE;
+
+}
+#main{
+    float:right;
+    width: 700px;
+    border: 5px;
+    background-color: #ffffff;
+}
+#end{
+    color: #2F4F4F;
+    background-image: url(../img/Header-background-image-1920-358.jpg);
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 150px;
+    text-align: center;
+    padding-top: 50px
+}
+#bosung p,#bosung h1,#bosung h2,#bosung h3,#bosung h4,#main p,#main h1,#main h2,#main h3,#main h4{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#main img{
+    margin-left: 10px;
+}
+#logo img{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+h1{
+    font-size: 3em;
+    color: 	#3E3535;
+    margin-bottom: 30px;
+    background-color: #808080;
+}
+h2{
+    font-size: 2em;
+}
